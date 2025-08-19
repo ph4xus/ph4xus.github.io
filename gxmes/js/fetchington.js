@@ -51,7 +51,7 @@ async function fetchData(index) {
 }
     async function fetchRecommendedGames() {
         try {
-            const response = await fetch('json/list.json');
+            const response = await fetch('../../json/list.json');
             const data = await response.json();
             const recommendedGamesContainer = document.getElementById('recommendedGames');
             recommendedGamesContainer.innerHTML = ''; 
