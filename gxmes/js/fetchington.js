@@ -1,6 +1,6 @@
 async function fetchData(index) {
     try {
-        const response = await fetch('/list.json');
+        const response = await fetch('../../json/list.json');
         const data = await response.json();
         const item = data[index];
         const name1 = item.name;
