@@ -1,5 +1,5 @@
 async function fetchGames() {
-    const response = await fetch('json/list.json');
+    const response = await fetch('../json/list.json');
     const games = await response.json();
     return games;
 }

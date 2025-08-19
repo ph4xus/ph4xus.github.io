@@ -79,7 +79,7 @@ function populateGames(sectionId, gamesList) {
     }
 }
 
-fetch('json/list.json')
+fetch('../json/list.json')
     .then(res => res.json())
     .then(data => {
         games = data;
