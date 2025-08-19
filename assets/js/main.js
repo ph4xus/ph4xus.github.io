@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function() {
-    fetch('list.json')
+    fetch('json/list.json')
         .then(response => response.json())
         .then(data => {
             const gxmeGrid = document.getElementById('gxmeGrid');
