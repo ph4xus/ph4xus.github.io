@@ -47,7 +47,7 @@ function populateGames(sectionId, gamesList) {
 
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
     const grid = section.querySelector('.games-grid');
-    grid.innerHTML = '';
+    //grid.innerHTML = '';
 
     gamesList.forEach(game => {
         const isFavorite = favorites.includes(game.name);
@@ -56,7 +56,7 @@ function populateGames(sectionId, gamesList) {
                 <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-game='${JSON.stringify(game)}'>
                     <i class="fas fa-star"></i>
                 </button>
-                <img src="https://ph4xus.github.io${game.imgsrc}" alt="${game.name}">
+                <img src="${game.imgsrc}" alt="${game.name}">
                 <h3>${game.name}</h3>
                 <a href="/gxmes/${game.foldername}" class="play-link" data-game='${JSON.stringify(game)}'>Play Now</a>
             </div>
@@ -114,7 +114,7 @@ navTabs.addEventListener('click', e => {
         });
         diffrentname();
     } else if (tabId === 'all-games') {
-        showSection('all-games');
+        showSection('all-games2');
     } else if (categorySections[tabId]) {
         showSection(`${tabId}-games`);
     }

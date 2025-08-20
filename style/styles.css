@@ -13,7 +13,6 @@ body {
     min-height: 100vh;
 }
 
-/* Side Navigation */
 .side-nav {
     width: 250px;
     background-color: #3e3e3e;
@@ -51,7 +50,6 @@ body {
     color: #a0d1a4;
 }
 
-/* Favorites Section */
 #favorites-section {
     margin-top: 20px;
 }
@@ -62,14 +60,12 @@ body {
     margin-bottom: 10px;
 }
 
-/* Main Content */
 main {
     margin-left: 250px;
     padding: 20px;
     width: calc(100% - 250px);
 }
 
-/* Game Grid */
 .games-grid {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
@@ -117,7 +113,6 @@ main {
     color: #a0d1a4;
 }
 
-/* Top 10 Section */
 #top-10 h2 {
     color: #a0d1a4;
     font-size: 2rem;
@@ -126,27 +121,12 @@ main {
 #all-games2 {
     display: none;
 }
-/* All Games Section */
 #all-games2 h2 {
     color: #a0d1a4;
     font-size: 2rem;
     margin-bottom: 20px;
 }
 
-/* Footer */
-.footer {
-    background-color: #3e3e3e;
-    padding: 15px;
-    text-align: center;
-    margin-top: auto;
-}
-
-.footer p {
-    font-size: 0.9rem;
-    color: #cfcfcf;
-}
-
-/* Animations */
 @keyframes fadeIn {
     0% { opacity: 0; }
     100% { opacity: 1; }
