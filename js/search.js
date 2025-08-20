@@ -14,9 +14,9 @@ if (searchQuery) {
                     const card = document.createElement('div');
                     card.classList.add('game-card');
                     card.innerHTML = `
-                        <img src="https://ph4xus.github.io${game.imgsrc}" alt="${game.name}">
+                        <img src="${game.imgsrc}" alt="${game.name}">
                         <h3>${game.name}</h3>
-                        <a href="${game.linksrc}">Play Now</a>
+                        <a href="/gxmes/${game.foldername}">Play Now</a>
                     `;
                     resultsContainer.appendChild(card);
                 });
