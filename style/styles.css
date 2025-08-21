@@ -244,8 +244,15 @@ a:hover {
     outline: none;
 }
 
-.search-container .search-icon {
+.search-container .search-icon .cogig{
     color: #a0d1a4;
     font-size: 1.5rem;
     margin-left: 10px;
+}
+.cogig {
+    position: fixed;
+    bottom:0;
+}
+.modalclass {
+    display:none;
 }
