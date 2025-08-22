@@ -7,26 +7,26 @@ if (searchQuery) {
     fetch('../json/list.json')
         .then(response => response.json())
         .then(data => {
-            const matches = data.filter(game => game.name.toLowerCase().includes(searchQuery));
+            const matches = data.filter(gxme => gxme.name.toLowerCase().includes(searchQuery));
 
             if (matches.length > 0) {
-                matches.forEach(game => {
+                matches.forEach(gxme => {
                     const card = document.createElement('div');
-                    card.classList.add('game-card');
+                    card.classList.add('gxme-card');
                     card.innerHTML = `
-                        <img src="${game.imgsrc}" alt="${game.name}">
-                        <h3>${game.name}</h3>
-                        <a href="/gxmes/${game.foldername}">Play Now</a>
+                        <img src="${gxme.imgsrc}" alt="${gxme.name}">
+                        <h3>${gxme.name}</h3>
+                        <a href="/gxmes/${gxme.foldername}">Play Now</a>
                     `;
                     resultsContainer.appendChild(card);
                 });
             } else {
-                resultsContainer.innerHTML = `<p>No games found matching "${searchQuery}".</p>`;
+                resultsContainer.innerHTML = `<p>No gxmes found matching "${searchQuery}".</p>`;
             }
         })
         .catch(error => {
-            console.error('Error loading game list:', error);
-            resultsContainer.innerHTML = `<p>Failed to load games.</p>`;
+            console.error('Error loading gxme list:', error);
+            resultsContainer.innerHTML = `<p>Failed to load gxmes.</p>`;
         });
 } else {
     alert("No search query provided")

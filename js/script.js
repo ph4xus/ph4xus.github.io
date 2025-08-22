@@ -1,17 +1,17 @@
-async function fetchGames() {
+async function fetchgxmes() {
     const response = await fetch('../json/list.json');
-    const games = await response.json();
-    return games;
+    const gxmes = await response.json();
+    return gxmes;
 }
 
 function renderLastPlayed() {
     const lastPlayed = JSON.parse(localStorage.getItem('lastPlayed')) || [];
-    const container = document.getElementById('last-played-games');
+    const container = document.getElementById('last-played-gxmes');
     
     if (lastPlayed.length > 0) {
-        renderGames(lastPlayed, 'last-played-games');
+        rendergxmes(lastPlayed, 'last-played-gxmes');
     } else {
-        container.innerHTML = '<p>No games played yet.</p>';
+        container.innerHTML = '<p>No gxmes played yet.</p>';
     }
 }
 
@@ -21,20 +21,20 @@ async function fetchTop10FolderNames() {
     return data[0].Top10; 
 }
 
-function renderGames(games, containerId) {
+function rendergxmes(gxmes, containerId) {
     const container = document.getElementById(containerId);
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
 
-    container.innerHTML = games.map(game => {
-        const isFavorite = favorites.includes(game.name);
+    container.innerHTML = gxmes.map(gxme => {
+        const isFavorite = favorites.includes(gxme.name);
         return `  
-            <div class="game-card">
-                <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-game='${JSON.stringify(game)}'>
+            <div class="gxme-card">
+                <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-gxme='${JSON.stringify(gxme)}'>
                     <i class="fas fa-star"></i>
                 </button>
-                <img src="${game.imgsrc}" alt="${game.name}">
-                <h3>${game.name}</h3>
-                <a href="/gxmes/${game.foldername}" class="play-link" data-game='${JSON.stringify(game)}'>Play Now</a>
+                <img src="${gxme.imgsrc}" alt="${gxme.name}">
+                <h3>${gxme.name}</h3>
+                <a href="/gxmes/${gxme.foldername}" class="play-link" data-gxme='${JSON.stringify(gxme)}'>Play Now</a>
             </div>
         `;
     }).join('');
@@ -46,39 +46,39 @@ function renderGames(games, containerId) {
     container.querySelectorAll('.play-link').forEach(link => {
         link.addEventListener('click', (e) => {
             e.preventDefault();
-            const game = JSON.parse(link.dataset.game);
-            updateLastPlayed(game);
+            const gxme = JSON.parse(link.dataset.gxme);
+            updateLastPlayed(gxme);
             window.location.href = link.href;
         });
     });
 }
 
 async function loadTop10() {
-    const games = await fetchGames();
+    const gxmes = await fetchgxmes();
     const top10FolderNames = await fetchTop10FolderNames();
-    const top10Games = games.filter(game => top10FolderNames.includes(game.foldername));
-    renderGames(top10Games, 'top-10-games');
+    const top10gxmes = gxmes.filter(gxme => top10FolderNames.includes(gxme.foldername));
+    rendergxmes(top10gxmes, 'top-10-gxmes');
 }
 
-async function loadAllGames() {
-    const games = await fetchGames();
-    renderGames(games, 'all-games-grid');
+async function loadAllgxmes() {
+    const gxmes = await fetchgxmes();
+    rendergxmes(gxmes, 'all-gxmes-grid');
 }
-async function loadLast10Games() {
-    const games = await fetchGames();
-    const last10Games = games.slice(-10).reverse();
-    renderGames(last10Games, 'last-10-games');
+async function loadLast10gxmes() {
+    const gxmes = await fetchgxmes();
+    const last10gxmes = gxmes.slice(-10).reverse();
+    rendergxmes(last10gxmes, 'last-10-gxmes');
 }
 function toggleFavorite(button) {
-    const game = JSON.parse(button.dataset.game);
+    const gxme = JSON.parse(button.dataset.gxme);
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const isFavorite = favorites.includes(game.name);
+    const isFavorite = favorites.includes(gxme.name);
 
     if (isFavorite) {
-        favorites = favorites.filter(fav => fav !== game.name);
+        favorites = favorites.filter(fav => fav !== gxme.name);
         button.classList.remove('active');
     } else {
-        favorites.push(game.name);
+        favorites.push(gxme.name);
         button.classList.add('active');
     }
 
@@ -93,19 +93,19 @@ function updateFavoritesDisplay() {
 
     if (favorites.length > 0) {
         favoritesSection.style.display = 'block';
-        fetchGames().then(games => {
-            const favoriteGames = games.filter(game => favorites.includes(game.name));
-            renderGames(favoriteGames, 'favorites');
+        fetchgxmes().then(gxmes => {
+            const favoritegxmes = gxmes.filter(gxme => favorites.includes(gxme.name));
+            rendergxmes(favoritegxmes, 'favorites');
         });
     } else {
         favoritesSection.style.display = 'block';
         favoritesContainer.innerHTML = `<p>No favorites yet, hit the star to add some!</p>`;
     }
 
-    document.querySelectorAll('.game-card').forEach(card => {
+    document.querySelectorAll('.gxme-card').forEach(card => {
         const button = card.querySelector('.favorite-btn');
-        const game = JSON.parse(button.dataset.game);
-        const isFavorite = favorites.includes(game.name);
+        const gxme = JSON.parse(button.dataset.gxme);
+        const isFavorite = favorites.includes(gxme.name);
         if (isFavorite) {
             button.classList.add('active');
         } else {
@@ -114,10 +114,10 @@ function updateFavoritesDisplay() {
     });
 }
 
-function updateLastPlayed(game) {
+function updateLastPlayed(gxme) {
     let lastPlayed = JSON.parse(localStorage.getItem('lastPlayed')) || [];
-    lastPlayed = lastPlayed.filter(item => item.name !== game.name);
-    lastPlayed.unshift(game); 
+    lastPlayed = lastPlayed.filter(item => item.name !== gxme.name);
+    lastPlayed.unshift(gxme); 
     lastPlayed = lastPlayed.slice(0, 5); 
     localStorage.setItem('lastPlayed', JSON.stringify(lastPlayed));
     renderLastPlayed();
@@ -125,8 +125,8 @@ function updateLastPlayed(game) {
 
 Promise.all([
     loadTop10(),
-    loadAllGames(),
+    loadAllgxmes(),
     updateFavoritesDisplay(),
     renderLastPlayed(),
-    loadLast10Games()
+    loadLast10gxmes()
 ]);

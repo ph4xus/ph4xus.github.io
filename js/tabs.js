@@ -1,6 +1,6 @@
 const navTabs = document.getElementById('nav-tabs');
 const tabContents = document.getElementById('tab-contents');
-let games = [];
+let gxmes = [];
 let categorySections = {};
 
 const defaultSections = ['Favorites', 'last-played', 'top-10', 'last-10'];
@@ -20,11 +20,11 @@ function createCategorySection(category) {
     if (categorySections[category]) return;
 
     const section = document.createElement('section');
-    section.id = `${category.toLowerCase()}-games`;
+    section.id = `${category.toLowerCase()}-gxmes`;
     section.className = 'tab-content';
     section.innerHTML = `
-        <h2>${category} Games</h2>
-        <div class="games-grid"></div>
+        <h2>${category} gxmes</h2>
+        <div class="gxmes-grid"></div>
     `;
     tabContents.appendChild(section);
     categorySections[category] = section;
@@ -34,34 +34,34 @@ function createCategorySection(category) {
     const li = document.createElement('li');
     li.id = category.toLowerCase();
     li.innerHTML = `<a>${category}</a>`;
-    navTabs.insertBefore(li, document.getElementById('all-games'));
+    navTabs.insertBefore(li, document.getElementById('all-gxmes'));
 
     li.querySelector('a').addEventListener('click', () => {
-        showSection(`${category.toLowerCase()}-games`);
+        showSection(`${category.toLowerCase()}-gxmes`);
     });
 }
 
-function populateGames(sectionId, gamesList) {
+function populategxmes(sectionId, gxmesList) {
     const section = document.getElementById(sectionId);
     if (!section) return;
 
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const grid = section.querySelector('.games-grid');
+    const grid = section.querySelector('.gxmes-grid');
     //grid.innerHTML = '';
 
-    gamesList.forEach(game => {
-        const isFavorite = favorites.includes(game.name);
-        const gameHTML = `
-            <div class="game-card">
-                <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-game='${JSON.stringify(game)}'>
+    gxmesList.forEach(gxme => {
+        const isFavorite = favorites.includes(gxme.name);
+        const gxmeHTML = `
+            <div class="gxme-card">
+                <button class="favorite-btn ${isFavorite ? 'active' : ''}" data-gxme='${JSON.stringify(gxme)}'>
                     <i class="fas fa-star"></i>
                 </button>
-                <img src="${game.imgsrc}" alt="${game.name}">
-                <h3>${game.name}</h3>
-                <a href="/gxmes/${game.foldername}" class="play-link" data-game='${JSON.stringify(game)}'>Play Now</a>
+                <img src="${gxme.imgsrc}" alt="${gxme.name}">
+                <h3>${gxme.name}</h3>
+                <a href="/gxmes/${gxme.foldername}" class="play-link" data-gxme='${JSON.stringify(gxme)}'>Play Now</a>
             </div>
         `;
-        grid.innerHTML += gameHTML;
+        grid.innerHTML += gxmeHTML;
     });
 
     if (sectionId === 'Favorites' || !defaultSections.includes(sectionId)) {
@@ -82,16 +82,16 @@ function populateGames(sectionId, gamesList) {
 fetch('../json/list.json')
     .then(res => res.json())
     .then(data => {
-        games = data;
+        gxmes = data;
 
-        const categories = [...new Set(games.map(g => g.category))];
+        const categories = [...new Set(gxmes.map(g => g.category))];
         categories.forEach(category => {
             createCategorySection(category);
-            const catGames = games.filter(g => g.category === category);
-            populateGames(`${category.toLowerCase()}-games`, catGames);
+            const catgxmes = gxmes.filter(g => g.category === category);
+            populategxmes(`${category.toLowerCase()}-gxmes`, catgxmes);
         });
 
-        populateGames('all-games-grid', games);
+        populategxmes('all-gxmes-grid', gxmes);
 
         hideAllSections();
         defaultSections.forEach(id => {
@@ -113,22 +113,22 @@ navTabs.addEventListener('click', e => {
             if (section) section.style.display = 'block';
         });
         diffrentname();
-    } else if (tabId === 'all-games') {
-        showSection('all-games2');
+    } else if (tabId === 'all-gxmes') {
+        showSection('all-gxmes2');
     } else if (categorySections[tabId]) {
-        showSection(`${tabId}-games`);
+        showSection(`${tabId}-gxmes`);
     }
 });
 function onlyforstar(button) {
-    const game = JSON.parse(button.dataset.game);
+    const gxme = JSON.parse(button.dataset.gxme);
     let favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const isFavorite = favorites.includes(game.name);
+    const isFavorite = favorites.includes(gxme.name);
 
     if (isFavorite) {
-        favorites = favorites.filter(fav => fav !== game.name);
+        favorites = favorites.filter(fav => fav !== gxme.name);
         button.classList.remove('active');
     } else {
-        favorites.push(game.name);
+        favorites.push(gxme.name);
         button.classList.add('active');
     }
 
@@ -136,12 +136,12 @@ function onlyforstar(button) {
 }
 function diffrentname() {
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
-    const favoriteGames = games.filter(g => favorites.includes(g.name));
+    const favoritegxmes = gxmes.filter(g => favorites.includes(g.name));
     const favoritesContainer = document.getElementById('favorites');
 
-    if (favoriteGames.length === 0) {
+    if (favoritegxmes.length === 0) {
         favoritesContainer.innerHTML = `<p>No favorites yet, hit the star to add some!</p>`;
     } else {
-        populateGames('Favorites', favoriteGames);
+        populategxmes('Favorites', favoritegxmes);
     }
 }

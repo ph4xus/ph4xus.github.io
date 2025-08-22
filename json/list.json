@@ -240,7 +240,7 @@
   {
     "name": "Generic Fishing",
     "imgsrc": "/assets/img/fishing.png",
-    "linksrc": "/Vafor_IT/fishing_game/",
+    "linksrc": "/Vafor_IT/fishing_gxme/",
     "foldername": "generic-fishing",
     "category": "Adventure"
   },
@@ -323,8 +323,8 @@
   },
   {
     "name": "World Hardest gm 2",
-    "imgsrc": "/Vafor_IT/worlds-hardest-game-2/the-worlds-hardest-game-2.jpg",
-    "linksrc": "/Vafor_IT/worlds-hardest-game-2/index.html",
+    "imgsrc": "/Vafor_IT/worlds-hardest-gxme-2/the-worlds-hardest-gxme-2.jpg",
+    "linksrc": "/Vafor_IT/worlds-hardest-gxme-2/index.html",
     "foldername": "worlds-hardest-gm-2",
     "category": "Platformer"
   },
