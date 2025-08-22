@@ -47,7 +47,7 @@ function populategxmes(sectionId, gxmesList) {
 
     const favorites = JSON.parse(localStorage.getItem('favorites')) || [];
     const grid = section.querySelector('.gxmes-grid');
-    //grid.innerHTML = '';
+    grid.innerHTML = '';
 
     gxmesList.forEach(gxme => {
         const isFavorite = favorites.includes(gxme.name);

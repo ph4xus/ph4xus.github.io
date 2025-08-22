@@ -25,7 +25,7 @@ function aboutblankcloakingpmayhaps() {
 }
 //leave confirm 
 
-function zqfiufbq {
+function zqfiufbq() {
   if (localStorage.getItem(dkslkfjsdf) === "true") {
     window.addEventListener('beforeunload', function (gqbln) {
       gqbln.preventDefault();
