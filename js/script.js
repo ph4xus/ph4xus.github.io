@@ -94,7 +94,12 @@ function updateFavoritesDisplay() {
     if (favorites.length > 0) {
         favoritesSection.style.display = 'block';
         fetchgxmes().then(gxmes => {
-            const favoritegxmes = gxmes.filter(gxme => favorites.includes(gxme.name));
+            //temp fix so i dont kill myself
+            const favoritegxmes = gxmes
+            .filter(gxme => favorites.includes(gxme.name))
+            .filter((gxme, index, self) => 
+                index === self.findIndex(g => g.name === gxme.name)
+            );
             rendergxmes(favoritegxmes, 'favorites');
         });
     } else {
