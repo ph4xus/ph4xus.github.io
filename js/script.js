@@ -94,13 +94,19 @@ function updateFavoritesDisplay() {
     if (favorites.length > 0) {
         favoritesSection.style.display = 'block';
         fetchgxmes().then(gxmes => {
-            //temp fix so i dont kill myself
-            const favoritegxmes = gxmes
-            .filter(gxme => favorites.includes(gxme.name))
-            .filter((gxme, index, self) => 
-                index === self.findIndex(g => g.name === gxme.name)
-            );
-            rendergxmes(favoritegxmes, 'favorites');
+            const favoritegxmes = gxmes.filter(gxme => favorites.includes(gxme.name));
+            
+            // Get all currently rendered game names in the favorites container
+            const renderedNames = Array.from(favoritesContainer.querySelectorAll('.gxme-card'))
+                .map(card => card.dataset.gxmeName);
+
+            // Only re-render if the set of rendered names differs from the favorites
+            const isDifferent = renderedNames.length !== favoritegxmes.length ||
+                !favoritegxmes.every(gxme => renderedNames.includes(gxme.name));
+
+            if (isDifferent) {
+                rendergxmes(favoritegxmes, 'favorites');
+            }
         });
     } else {
         favoritesSection.style.display = 'block';
