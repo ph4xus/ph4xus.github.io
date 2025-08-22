@@ -1,11 +1,9 @@
 # Vafor Games ig
-made this for fun and cuz i couldnt find any game sites. 
-Got me called to vice princiaples office lmao.
-work in development lots of things break. 
-Only one dev be patient i dont have infinite time. 
+A simple gaming site I made for fun because I couldn't find any good ones. It got me called to the vice principal's office, lmao.
 
-List of features coming or already here. 
-tab cloak 
-about blank opening
-save all local storage and cookies into a file and reupload (kill me now)
-(google be nice to me i need money)
+This is a work in progress, so expect some bugs and broken features. I'm the only developer, so please be patient—I don't have infinite time.
+
+## Upcoming and Current Features
+* **Tab cloak:** Disguises the site as something else to hide it.
+* **About blank opening:** Opens the game in a new, clean tab.
+* **Save/restore data:** A feature to save all local storage and cookies to a file and re-upload them.
