@@ -1,4 +1,4 @@
-fetch('/list.json')
+fetch('../json/list.json')
   .then(response => response.json())
   .then(data => {
     const gxmes = data.length;

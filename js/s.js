@@ -1,4 +1,6 @@
 //settings things cool update
+const button = document.getElementById('bgButton');
+const button2 = document.getElementById('leavbutton');
 //about blank cloaking maybe im not sure
 function aboutblankcloakingpmayhaps() {
     var redirectURL = prompt("Enter website where the current URL will get redirected to (default is google.com):", "google.com");
@@ -25,22 +27,51 @@ function aboutblankcloakingpmayhaps() {
 }
 //leave confirm 
 
-function zqfiufbq() {
-  const keyName = "dkslkfjsdf"; 
-  const shouldWarn = localStorage.getItem(keyName) === "true";
-
-  if (shouldWarn) {
-    window.onbeforeunload = function (event) {
-      event.preventDefault();
-      event.returnValue = '';
-    };
-  }
+function letleavethistownandrunforever() {
+//i cant bro
 }
 
-function rtgpop() {
-  localStorage.setItem(dkslkfjsdf === "true" ? "false" : "true");
-}
+function handleBackground() {
+    const savedBg = localStorage.getItem('bgImage');
+    if (savedBg) {
+        document.body.style.backgroundImage = `url(${savedBg})`;
+        button.textContent = 'Reset Background';
+    } else {
+        button.textContent = 'Upload Background';
+    }
 
+    button.addEventListener('click', () => {
+        const currentBg = localStorage.getItem('bgImage');
+
+        if (currentBg) {
+            document.body.style.backgroundImage = '';
+            localStorage.removeItem('bgImage');
+            button.textContent = 'Upload Background';
+        } else {
+            const uploader = document.createElement('input');
+            uploader.type = 'file';
+            uploader.accept = 'image/*';
+            uploader.style.display = 'none';
+            document.body.appendChild(uploader);
+
+            uploader.addEventListener('change', (event) => {
+                const file = event.target.files[0];
+                if (!file) return;
+
+                const reader = new FileReader();
+                reader.onload = (e) => {
+                    document.body.style.backgroundImage = `url(${e.target.result})`;
+                    localStorage.setItem('bgImage', e.target.result);
+                    button.textContent = 'Reset Background';
+                    document.body.removeChild(uploader);
+                };
+                reader.readAsDataURL(file);
+            });
+
+            uploader.click();
+        }
+    });
+}
 //tab renaming
 function applyUrl(url, tabName) {
     document.title = tabName;
@@ -68,4 +99,5 @@ function applyUrl(url, tabName) {
       link.href = savedTabImage;
       document.getElementsByTagName('head')[0].appendChild(link);
     }
+    handleBackground()
   }
