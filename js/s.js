@@ -1,6 +1,7 @@
 //settings things cool update
 const button = document.getElementById('bgButton');
 const button2 = document.getElementById('leavbutton');
+let load = localStorage.getItem('leaveConf') === 'true';
 //about blank cloaking maybe im not sure
 function aboutblankcloakingpmayhaps() {
     var redirectURL = prompt("Enter website where the current URL will get redirected to (default is google.com):", "google.com");
@@ -26,9 +27,24 @@ function aboutblankcloakingpmayhaps() {
     }
 }
 //leave confirm 
+const beforeUnloadHandler = function(e) {
+    e.preventDefault();
+    e.returnValue = '';
+};
 
 function letleavethistownandrunforever() {
-//i cant bro
+    load = !load; 
+    localStorage.setItem('leaveConf', load);
+    thethingyouknowthething()
+}
+function thethingyouknowthething() {
+    button2.textContent = load ? "disable?" : "enable?";
+    
+    if (load) {
+        window.addEventListener('beforeunload', beforeUnloadHandler);
+    } else {
+        window.removeEventListener('beforeunload', beforeUnloadHandler);
+    }
 }
 
 function handleBackground() {
@@ -100,4 +116,37 @@ function applyUrl(url, tabName) {
       document.getElementsByTagName('head')[0].appendChild(link);
     }
     handleBackground()
-  }
+    thethingyouknowthething()
+}
+
+
+//functions i might have to reuse 
+//logic for other pages 
+
+/*
+    //redirect prevent
+    if (localStorage.getItem('leaveConf') == 'true') {
+      window.addEventListener('beforeunload', function(e) {
+          e.preventDefault();
+          e.returnValue = ''; 
+      });
+    } else {
+      window.removeEventListener('beforeunload', function(e) {
+          e.preventDefault();
+          e.returnValue = ''; 
+      });
+    }
+    //sneakysneaky tab rename
+    var savedTabName = localStorage.getItem('tabName');
+    var savedTabImage = localStorage.getItem('tabImage');
+    if (savedTabName) {
+      document.title = savedTabName;
+    }
+    if (savedTabImage) {
+      var link = document.querySelector("link[rel*='icon']") || document.createElement('link');
+      link.type = 'image/x-icon';
+      link.rel = 'shortcut icon';
+      link.href = savedTabImage;
+      document.getElementsByTagName('head')[0].appendChild(link);
+    }
+*/
