@@ -96,11 +96,9 @@ function updateFavoritesDisplay() {
         fetchgxmes().then(gxmes => {
             const favoritegxmes = gxmes.filter(gxme => favorites.includes(gxme.name));
             
-            // Get all currently rendered game names in the favorites container
             const renderedNames = Array.from(favoritesContainer.querySelectorAll('.gxme-card'))
                 .map(card => card.dataset.gxmeName);
 
-            // Only re-render if the set of rendered names differs from the favorites
             const isDifferent = renderedNames.length !== favoritegxmes.length ||
                 !favoritegxmes.every(gxme => renderedNames.includes(gxme.name));
 

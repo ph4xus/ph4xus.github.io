@@ -26,16 +26,19 @@ function aboutblankcloakingpmayhaps() {
 //leave confirm 
 
 function zqfiufbq() {
-  if (localStorage.getItem(dkslkfjsdf) === "true") {
-    window.addEventListener('beforeunload', function (gqbln) {
-      gqbln.preventDefault();
-      gqbln.returnValue = '';
-    });
+  const keyName = "dkslkfjsdf"; 
+  const shouldWarn = localStorage.getItem(keyName) === "true";
+
+  if (shouldWarn) {
+    window.onbeforeunload = function (event) {
+      event.preventDefault();
+      event.returnValue = '';
+    };
   }
 }
 
 function rtgpop() {
-  localStorage.setItem("dkslkfjsdf", "true");
+  localStorage.setItem(dkslkfjsdf === "true" ? "false" : "true");
 }
 
 //tab renaming
