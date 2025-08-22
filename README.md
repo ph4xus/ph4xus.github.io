@@ -1,7 +1,7 @@
 # Vafor Games ig
 A simple gaming site I made for fun because I couldn't find any good ones. It got me called to the vice principal's office, lmao.
 
-This is a work in progress, so expect some bugs and broken features. I'm the only developer, so please be patient—I don't have infinite time.
+This is a work in progress, so expect some bugs and broken features. I'm the only dev so expect stuff to be broken all the time. 
 
 ## Upcoming and Current Features
 * **Tab cloak:** Disguises the site as something else to hide it.
