@@ -80,23 +80,6 @@
             </p>
     </div>
   </div>
-<script>
-    const searchInput = document.getElementById('search-input');
-    const searchIcon = document.querySelector('.search-icon');
-
-    function performSearch() {
-        const query = searchInput.value.trim();
-        if (query) {
-            window.location.href = `../search/?q=${encodeURIComponent(query)}`;
-        }
-    }
-
-    searchInput.addEventListener('keydown', function(e) {
-        if (e.key === 'Enter') performSearch();
-    });
-
-    searchIcon.addEventListener('click', performSearch);
-</script>
 <script src="../js/script.js"></script>
 <script src="../js/tabs.js"></script>
 <script src="../js/yeahmodalthing.js"></script>
