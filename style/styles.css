@@ -293,9 +293,10 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 25px;
+    height: 90vh;
+    overflow: auto;
 }
 
-/* Pop-in Animation */
 @keyframes popin {
     from { transform: scale(0.8); opacity: 0.2; }
     to { transform: scale(1); opacity: 1; }
