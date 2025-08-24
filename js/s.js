@@ -184,6 +184,28 @@ function crashout() {
     }
 }
 
+function youngerdryas() {
+    var num = prompt("History flood amount: ");
+    var done = false;
+    var x = window.location.href;
+
+    for (var i = 1; i <= num; i++) {
+        history.pushState(0, 0, i == num ? x : i.toString());
+        if (i == num) {
+            done = true;
+        }
+    }
+
+    if (done === true) {
+        alert(
+            "History flood successful! " +
+            window.location.href +
+            " now appears in your history " +
+            num +
+            (num == 1 ? " time." : " times.")
+        );
+    }
+}
 //and acutally load the darn thing
   window.onload = function() {
     var savedTabName = localStorage.getItem('tabName');
