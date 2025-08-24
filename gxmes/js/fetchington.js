@@ -23,14 +23,27 @@ async function fetchData(index) {
         const image = document.getElementById('bottomimage');
         image.src = imgsrc; 
         document.getElementById('gameTitle').textContent = 'Play ' + name1 + ' on ' + SiteText;
-        document.title = 'Play ' + name1 + ' on maxwellstevenson.com';
-        const imgSrc = imgsrc; document.head.appendChild(Object.assign(document.createElement('link'), { rel: 'icon', href: imgSrc, id: 'faviconLink' }));
         const keywords = 'game, gxmes, ' + name1 + ' unblocked, ' + name1 + ' ' + SiteText + ', Vafor, Vafor IT, ' + name1 + ', ' + name1 + ' school, github gxmes, github ' + name1;
         var meta = document.createElement('meta');
         meta.name = 'description';
         meta.content = 'Play ' + name1 + ' on maxwellstevenson.com';
         document.getElementsByTagName('head')[0].appendChild(meta);
+        
+        const savedTabName = localStorage.getItem('tabName');
+        const savedTabImage = localStorage.getItem('tabImage');
 
+        if (savedTabName && savedTabImage) {
+            document.title = savedTabName;
+
+            const savedFavicon = document.querySelector("link[rel*='icon']") || document.createElement('link');
+            savedFavicon.type = 'image/x-icon';
+            savedFavicon.rel = 'shortcut icon';
+            savedFavicon.href = savedTabImage;
+            document.head.appendChild(savedFavicon);
+        } else {
+            document.title = 'Play ' + name1 + ' on maxwellstevenson.com';
+            const imgSrc = imgsrc; document.head.appendChild(Object.assign(document.createElement('link'), { rel: 'icon', href: imgSrc, id: 'faviconLink' }));
+        }
     
         const keywordsArray = keywords.split(', ');
 
@@ -43,6 +56,17 @@ async function fetchData(index) {
             span.textContent = keyword;
             keywordsDiv.appendChild(span);
         });
+        if (localStorage.getItem('leaveConf') == 'true') {
+            window.addEventListener('beforeunload', function(e) {
+                e.preventDefault();
+                e.returnValue = ''; 
+            });
+            } else {
+            window.removeEventListener('beforeunload', function(e) {
+                e.preventDefault();
+                e.returnValue = ''; 
+            });
+        }
 
         document.getElementById('game-iframe').focus();
     } catch (error) {

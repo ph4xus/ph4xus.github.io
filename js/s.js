@@ -38,7 +38,7 @@ function letleavethistownandrunforever() {
     thethingyouknowthething()
 }
 function thethingyouknowthething() {
-    button2.textContent = load ? "disable?" : "enable?";
+    button2.textContent = load ? "Disable?" : "Enable?";
     
     if (load) {
         window.addEventListener('beforeunload', beforeUnloadHandler);
@@ -101,6 +101,67 @@ function applyUrl(url, tabName) {
     localStorage.setItem('tabName', tabName);
     localStorage.setItem('tabImage', url);
 }
+//save manager 
+function letsdownload() {
+      const data = JSON.stringify(localStorage, null, 2);
+      const blob = new Blob([data], { type: "application/json" });
+      const url = URL.createObjectURL(blob);
+
+      const a = document.createElement("a");
+      a.href = url;
+      a.download = "SaveData.json";
+      a.click();
+
+      URL.revokeObjectURL(url);
+}
+function cheatsandhacks() {
+    const uploaderfrowny = document.createElement('input');
+    uploaderfrowny.type = 'file';
+    uploaderfrowny.accept = '.json';
+    uploaderfrowny.style.display = 'none';
+
+    document.body.appendChild(uploaderfrowny);
+
+    uploaderfrowny.addEventListener('change', function () {
+        const file = uploaderfrowny.files[0];
+        if (!file) {
+            alert("Please select a JSON file.");
+            return;
+        }
+
+        const reader = new FileReader();
+        reader.onload = function (e) {
+            try {
+                const data = JSON.parse(e.target.result);
+
+                if (typeof data !== 'object' || data === null) {
+                    throw new Error("Invalid format");
+                }
+
+                for (const key in data) {
+                    localStorage.setItem(key, data[key]);
+                }
+
+                alert("Data restored!");
+            } catch (err) {
+                alert("Failed to restore localStorage: " + err.message);
+            }
+        };
+
+        reader.readAsText(file);
+    });
+
+    uploaderfrowny.click();
+}
+
+function crashout() {
+    if (confirm("Are you sure? It deletes all you settings as well.")) {
+        localStorage.clear();
+        alert("Done!");
+        window.location.reload();
+    }
+}
+
 //and acutally load the darn thing
   window.onload = function() {
     var savedTabName = localStorage.getItem('tabName');
