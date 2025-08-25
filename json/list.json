@@ -642,5 +642,13 @@
     "linksrc": "/Vafor_IT/TowerOfDestiny",
     "foldername": "tower-of-destiny",
     "category": "Platformer"
+  },
+  {
+    "name": "Henry Stickman",
+    "imgsrc": "/assets/img/escape.png",
+    "linksrc": "/Vafor_IT/Henry",
+    "foldername": "Henry",
+    "category": "Puzzle"
   }
+  
 ]
