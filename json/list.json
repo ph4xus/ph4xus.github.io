@@ -4,7 +4,7 @@
     "imgsrc": "/assets/img/stickman.jpeg",
     "linksrc": "/Vafor_IT/hookingman/",
     "foldername": "stickman-hook",
-    "category": "Action"
+    "category": "Platformer"
   },
   {
     "name": "1v1.lol",
@@ -25,28 +25,28 @@
     "imgsrc": "/assets/img/cookieclicker.webp",
     "linksrc": "/Vafor_IT/cookie-clicker/",
     "foldername": "cookie-clicker",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "Retro Football",
     "imgsrc": "/assets/img/retrobowl.jpeg",
     "linksrc": "/Vafor_IT/retrobowl/",
     "foldername": "retro-football",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Agar.io",
     "imgsrc": "/assets/img/agar.png",
     "linksrc": "/Vafor_IT/jptr-agario/web/",
     "foldername": "agar.io",
-    "category": "Platformer"
+    "category": "Action"
   },
   {
     "name": "Smash Karts",
     "imgsrc": "/Vafor_IT/d2f6b8c9e4a1f7d5a3c9e1b8f6d4a2e3/9c9e529b14731be871b07b89660bbc2a.png",
     "linksrc": "/Vafor_IT/d2f6b8c9e4a1f7d5a3c9e1b8f6d4a2e3",
     "foldername": "smash-karts",
-    "category": "Adventure"
+    "category": "Car"
   },
   {
     "name": "Slope",
@@ -60,21 +60,21 @@
     "imgsrc": "/assets/img/pirates2.jfif",
     "linksrc": "/Vafor_IT/pirates",
     "foldername": "yohoho.io",
-    "category": "Adventure"
+    "category": "Action"
   },
   {
     "name": "Gun Spin",
     "imgsrc": "/assets/img/gunspin.png",
     "linksrc": "/Vafor_IT/gunspin",
     "foldername": "gunspin",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Monkey Mart",
     "imgsrc": "/assets/img/monkey.jfif",
     "linksrc": "/Vafor_IT/ihatemonkeys",
     "foldername": "monkey-mart",
-    "category": "Puzzle"
+    "category": "Idle"
   },
   {
     "name": "Awesome Tanks 2",
@@ -102,28 +102,28 @@
     "imgsrc": "/assets/img/drift.jpeg",
     "linksrc": "/Vafor_IT/germany-drift",
     "foldername": "drift-boss",
-    "category": "Action"
+    "category": "Car"
   },
   {
     "name": "Bank Robbery",
     "imgsrc": "/assets/img/bank4.png",
     "linksrc": "/Vafor_IT/bank",
     "foldername": "bank-robbery",
-    "category": "Adventure"
+    "category": "Action"
   },
   {
     "name": "Ovo",
     "imgsrc": "/assets/img/ovo.png",
     "linksrc": "/Vafor_IT/ovo",
     "foldername": "ovo",
-    "category": "Action"
+    "category": "Platformer"
   },
   {
     "name": "Tiny Fishing",
     "imgsrc": "/assets/img/tinyfishing.png",
     "linksrc": "/Vafor_IT/tiny-fishing",
     "foldername": "tiny-fishing",
-    "category": "Puzzle"
+    "category": "Idle"
   },
   {
     "name": "Vex 6",
@@ -144,14 +144,14 @@
     "imgsrc": "/assets/img/sm64.jpg",
     "linksrc": "/Vafor_IT/sm64",
     "foldername": "super-mario-64",
-    "category": "Platformer"
+    "category": "Adventure"
   },
   {
     "name": "60 Second Burger Run",
     "imgsrc": "/assets/img/burger.png",
     "linksrc": "/Vafor_IT/60min/index.html",
     "foldername": "60-second-burger-run",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Paper.io 2",
@@ -165,77 +165,77 @@
     "imgsrc": "/assets/img/cat.png",
     "linksrc": "/Vafor_IT/cat-mario/index.html",
     "foldername": "cat-mario",
-    "category": "Puzzle"
+    "category": "Action"
   },
   {
     "name": "Idle Breakout",
     "imgsrc": "/assets/img/idle.png",
     "linksrc": "/Vafor_IT/idle-breakout/",
     "foldername": "idle-breakout",
-    "category": "Puzzle"
+    "category": "Idle"
   },
   {
     "name": "Ducklife",
     "imgsrc": "/assets/img/duck.jpeg",
     "linksrc": "/Vafor_IT/ducklife1/index.html",
     "foldername": "ducklife",
-    "category": "Car"
+    "category": "IDle"
   },
   {
     "name": "Ducklife2",
     "imgsrc": "/assets/img/ducklife2.webp",
     "linksrc": "/Vafor_IT/ducklife2",
     "foldername": "ducklife2",
-    "category": "Action"
+    "category": "Idle"
   },
   {
     "name": "Ducklife3",
     "imgsrc": "/assets/img/ducklife3.webp",
     "linksrc": "/Vafor_IT/ducklife3",
     "foldername": "ducklife3",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "Pixel Gun 2",
     "imgsrc": "/assets/img/pixelgun.jfif",
     "linksrc": "/Vafor_IT/pixelgun/maxwellstevenson.com.html",
     "foldername": "pixel-gun-2",
-    "category": "Car"
+    "category": "Action"
   },
   {
     "name": "Drive Mad",
     "imgsrc": "/assets/img/drivemad.jpeg",
     "linksrc": "/Vafor_IT/drive-mad/",
     "foldername": "drive-mad",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Cluster Rush",
     "imgsrc": "/assets/img/bustergush.png",
     "linksrc": "/Vafor_IT/bustergush",
     "foldername": "cluster-rush",
-    "category": "Adventure"
+    "category": "Action"
   },
   {
     "name": "10 Minutes Till Dawn",
     "imgsrc": "/assets/img/20min.jfif",
     "linksrc": "/Vafor_IT/10-minutes-till-dawn/",
     "foldername": "10-minutes-till-dawn",
-    "category": "Car"
+    "category": "Action"
   },
   {
     "name": "Google Snake",
     "imgsrc": "/assets/img/drakethesnake.png",
     "linksrc": "/Vafor_IT/google-snake/",
     "foldername": "google-snake",
-    "category": "Adventure"
+    "category": "Action"
   },
   {
     "name": "Gun Mayhem 2",
     "imgsrc": "/assets/img/gunmayhem.jpeg",
     "linksrc": "/Vafor_IT/gunmayhem2/",
     "foldername": "gun-mayhem-2",
-    "category": "Car"
+    "category": "P"
   },
   {
     "name": "Generic Fishing",
