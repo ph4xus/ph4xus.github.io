@@ -179,7 +179,7 @@
     "imgsrc": "/assets/img/duck.jpeg",
     "linksrc": "/Vafor_IT/ducklife1/index.html",
     "foldername": "ducklife",
-    "category": "IDle"
+    "category": "Idle"
   },
   {
     "name": "Ducklife2",
@@ -235,7 +235,7 @@
     "imgsrc": "/assets/img/gunmayhem.jpeg",
     "linksrc": "/Vafor_IT/gunmayhem2/",
     "foldername": "gun-mayhem-2",
-    "category": "P"
+    "category": "Platformer"
   },
   {
     "name": "Generic Fishing",
@@ -249,35 +249,35 @@
     "imgsrc": "/assets/img/fnaf.webp",
     "linksrc": "/Vafor_IT/scarybear/",
     "foldername": "fnaf",
-    "category": "Car"
+    "category": "Action"
   },
   {
     "name": "Ninja vs Evilcorp",
     "imgsrc": "/assets/img/ninja.png",
     "linksrc": "/Vafor_IT/ninja.html",
     "foldername": "ninja-vs-evilcorp",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "CSGO Clicker",
     "imgsrc": "/assets/img/csgo.png",
     "linksrc": "/Vafor_IT/csgo_clicker/",
     "foldername": "csgo-clicker",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "Madalin Stunt Cars",
     "imgsrc": "/assets/img/mcm.png",
     "linksrc": "/Vafor_IT/mcm-files/",
     "foldername": "madalin-stunt-cars",
-    "category": "Puzzle"
+    "category": "Car"
   },
   {
     "name": "Bitlife",
     "imgsrc": "/assets/img/bitlife.jpeg",
     "linksrc": "/Vafor_IT/bitlife/",
     "foldername": "bitlife",
-    "category": "Puzzle"
+    "category": "Idle"
   },
   {
     "name": "Snowrider",
@@ -291,77 +291,77 @@
     "imgsrc": "/assets/img/jet.png",
     "linksrc": "/Vafor_IT/jetpack-joyride/",
     "foldername": "jetpack-joyride",
-    "category": "Car"
+    "category": "Platformer"
   },
   {
     "name": "Impossible Quiz",
     "imgsrc": "/assets/img/averageschool.png",
     "linksrc": "/Vafor_IT/impossiblequiz/",
     "foldername": "impossible-quiz",
-    "category": "Action"
+    "category": "Misc"
   },
   {
     "name": "Pappas Pizzaria",
     "imgsrc": "/Vafor_IT/papaspizzaria/papaspizzaria.jpg",
     "linksrc": "/Vafor_IT/papaspizzaria/",
     "foldername": "pappas-pizzeria",
-    "category": "Adventure"
+    "category": "Idle"
   },
   {
     "name": "Pappas Freezeria",
     "imgsrc": "/assets/img/papas-freezeria.webp",
     "linksrc": "/Vafor_IT/papasfreezeria/",
     "foldername": "pappas-freezeria",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "Pappas Pancakearia",
     "imgsrc": "/assets/img/papaspancakes.png",
     "linksrc": "/Vafor_IT/papaspancakeareia/",
     "foldername": "pappas-pancakearia",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "World Hardest gm 2",
     "imgsrc": "/Vafor_IT/worlds-hardest-gxme-2/the-worlds-hardest-gxme-2.jpg",
     "linksrc": "/Vafor_IT/worlds-hardest-gxme-2/index.html",
     "foldername": "worlds-hardest-gm-2",
-    "category": "Platformer"
+    "category": "Idle"
   },
   {
     "name": "Rooftop Snipers",
     "imgsrc": "/assets/img/rooft.png",
     "linksrc": "/Vafor_IT/rooftop-snipers/",
     "foldername": "rooftop-snipers",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Stack",
     "imgsrc": "/Vafor_IT/stack/stack.png",
     "linksrc": "/Vafor_IT/stack/",
     "foldername": "stack",
-    "category": "Adventure"
+    "category": "Misc"
   },
   {
     "name": "Tanuki Sunset",
     "imgsrc": "/Vafor_IT/tanuki-sunset/img/logo.png",
     "linksrc": "/Vafor_IT/tanuki-sunset/",
     "foldername": "tanuki-sunset",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Soccer Random",
     "imgsrc": "/Vafor_IT/soccer-random/splash.png",
     "linksrc": "/Vafor_IT/soccer-random/",
     "foldername": "soccer-random",
-    "category": "Car"
+    "category": "Platformer"
   },
   {
     "name": "Subway Surfers",
     "imgsrc": "/Vafor_IT/subway-surfers/img/splash.jpg",
     "linksrc": "/Vafor_IT/subway-surfers/",
     "foldername": "subway-surfers",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Learn to Fly",
@@ -375,14 +375,14 @@
     "imgsrc": "/assets/img/learn.jpeg",
     "linksrc": "/Vafor_IT/learn2fly/index.html",
     "foldername": "learn2fly",
-    "category": "Car"
+    "category": "Platformer"
   },
   {
     "name": "Hilldraw",
     "imgsrc": "/Vafor_IT/hilldraw/icons/icon-512.png",
     "linksrc": "/Vafor_IT/hilldraw/",
     "foldername": "hilldraw",
-    "category": "Platformer"
+    "category": "Car"
   },
   {
     "name": "Snowball io",
@@ -403,7 +403,7 @@
     "imgsrc": "/assets/img/pixelspeedrun.png",
     "linksrc": "/Vafor_IT/pixellyballs/",
     "foldername": "pixel-speedrun",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "A Dance of Fire and Ice",
@@ -424,21 +424,21 @@
     "imgsrc": "/assets/img/deepest-sword.png",
     "linksrc": "/Vafor_IT/deepswordayo/",
     "foldername": "deepest-sword",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Bottle Flip 3d",
     "imgsrc": "/assets/img/sddefault.jpg",
     "linksrc": "/Vafor_IT/bottleflippingdiedin20126/",
     "foldername": "bottle-flip-3d",
-    "category": "Puzzle"
+    "category": "Platformer"
   },
   {
     "name": "Choppy Orc",
     "imgsrc": "/assets/img/thumb_2.jpg",
     "linksrc": "/Vafor_IT/ChoppyOrc",
     "foldername": "choppy-orc",
-    "category": "Action"
+    "category": "Platformer"
   },
   {
     "name": "Minecraft (1.5)",
@@ -452,14 +452,14 @@
     "imgsrc": "/assets/img/funnyshooter.webp",
     "linksrc": "/Vafor_IT/VAzg42bVjmum4loaFEocbmzmkIYQggJd/",
     "foldername": "funny-shooter",
-    "category": "Car"
+    "category": "Action"
   },
   {
     "name": "Hole io",
     "imgsrc": "/assets/img/hole.io.jfif",
     "linksrc": "/Vafor_IT/hole.io/",
     "foldername": "hole-io",
-    "category": "Puzzle"
+    "category": "Action"
   },
   {
     "name": "Tomb of the mask",
@@ -473,35 +473,35 @@
     "imgsrc": "/Vafor_IT/doge/img/dogeminer_300x300.png",
     "linksrc": "/Vafor_IT/doge/",
     "foldername": "doge-miner",
-    "category": "Car"
+    "category": "Idle"
   },
   {
     "name": "Run 3",
     "imgsrc": "/Vafor_IT/run3editor/loading.png",
     "linksrc": "/Vafor_IT/run3editor/",
     "foldername": "run-3",
-    "category": "Car"
+    "category": "Action"
   },
   {
     "name": "Sausage Flip",
     "imgsrc": "/assets/img/sausage.jpg",
     "linksrc": "/Vafor_IT/sausage/",
     "foldername": "sausage-flip",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Sandstrike.io",
     "imgsrc": "/assets/img/sanstrike.webp",
     "linksrc": "/Vafor_IT/sanstrike.io/",
     "foldername": "sandstrike.io",
-    "category": "Platformer"
+    "category": "Action"
   },
   {
     "name": "Color Tunnel",
     "imgsrc": "/Vafor_IT/colourtunnel/TemplateData/logo.png",
     "linksrc": "/Vafor_IT/colourtunnel",
     "foldername": "color-tunnel",
-    "category": "Action"
+    "category": "Platformer"
   },
   {
     "name": "Polytrack",
@@ -515,21 +515,21 @@
     "imgsrc": "/Vafor_IT/fnfweek7/friday-night-funkin.png",
     "linksrc": "/Vafor_IT/fnfweek7/",
     "foldername": "friday-night-funkin",
-    "category": "Car"
+    "category": "Misc"
   },
   {
     "name": "Last Horizon",
     "imgsrc": "/assets/img/lasthorizon1.jfif",
     "linksrc": "/Vafor_IT/lasthorizon1/",
     "foldername": "last-horizon",
-    "category": "Puzzle"
+    "category": "Adventure"
   },
   {
     "name": "Fruit Ninja",
     "imgsrc": "/Vafor_IT/fruitninja/FruitNinjaTeaser.jpg",
     "linksrc": "/Vafor_IT/fruitninja/",
     "foldername": "fruit-ninja",
-    "category": "Platformer"
+    "category": "Action"
   },
   {
     "name": "Rocket Pult",
@@ -543,14 +543,14 @@
     "imgsrc": "/assets/img/blockblast.jpeg",
     "linksrc": "/Vafor_IT/blockblast/",
     "foldername": "block-blast",
-    "category": "Puzzle"
+    "category": "Misc"
   },
   {
     "name": "Moto X3m",
     "imgsrc": "/assets/img/moto.jfif",
     "linksrc": "/Vafor_IT/mx3m",
     "foldername": "moto-x3m",
-    "category": "Adventure"
+    "category": "Car"
   },
   {
     "name": "Moto X3m Winter",
@@ -571,7 +571,7 @@
     "imgsrc": "/assets/img/poolparty.png",
     "linksrc": "/Vafor_IT/mx3m-poolparty",
     "foldername": "moto-x3m-pool-party",
-    "category": "Action"
+    "category": "Car"
   },
   {
     "name": "Eggy car",
@@ -592,14 +592,14 @@
     "imgsrc": "/assets/img/bob2.jpeg",
     "linksrc": "/Vafor_IT/BobTheRobber2",
     "foldername": "bob-the-robber-2",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Bob the robber 3",
     "imgsrc": "/assets/img/bob3.jfif",
     "linksrc": "/Vafor_IT/BobTheRobber3",
     "foldername": "bob-the-robber-3",
-    "category": "Adventure"
+    "category": "Platformer"
   },
   {
     "name": "Bob the robber 4",
@@ -613,34 +613,34 @@
     "imgsrc": "/assets/img/2048.png",
     "linksrc": "/Vafor_IT/2048",
     "foldername": "2048",
-    "category": "Puzzle"
+    "category": "Misc"
   },
   {
     "name": "Tetris",
     "imgsrc": "/assets/img/tetris.png",
     "linksrc": "/Vafor_IT/tetris",
     "foldername": "tetris",
-    "category": "Action"
+    "category": "Misc"
   },
   {
     "name": "Crazy Cattle",
     "imgsrc": "/assets/img/crazycattle.jpg",
     "linksrc": "/Vafor_IT/crazycattle",
     "foldername": "crazy-cattle",
-    "category": "Platformer"
+    "category": "Action"
   },
   {
     "name": "Snake is Mlg Edition",
     "imgsrc": "/assets/img/snakemlg.jfif",
     "linksrc": "/Vafor_IT/snakemlg",
     "foldername": "snake-is-mlg",
-    "category": "Puzzle"
+    "category": "Action"
   },
   {
     "name": "Tower of Destiny",
     "imgsrc": "/assets/img/towerofdestiny.png",
     "linksrc": "/Vafor_IT/TowerOfDestiny",
     "foldername": "tower-of-destiny",
-    "category": "Puzzle"
+    "category": "Platformer"
   }
 ]
