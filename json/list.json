@@ -648,7 +648,35 @@
     "imgsrc": "/assets/img/escape.png",
     "linksrc": "/Vafor_IT/Henry",
     "foldername": "HenryStickman",
-    "category": "Puzzle"
+    "category": "Adventure"
+  },
+  {
+    "name": "Henry Stickman  - Breaking the Bank",
+    "imgsrc": "/assets/img/breakingbad.png",
+    "linksrc": "/Vafor_IT/breaking-the-bank",
+    "foldername": "breaking-the-bank",
+    "category": "Adventure"
+  },
+  {
+    "name": "Henry Stickman  - Fleeing the Complex",
+    "imgsrc": "/assets/img/fleeing.png",
+    "linksrc": "/Vafor_IT/fleeing-the-complex",
+    "foldername": "fleeing-the-complex",
+    "category": "Adventure"
+  },
+  {
+    "name": "Henry Stickman  - Inflitrating the Airship",
+    "imgsrc": "/assets/img/airshiplikeamongus.png",
+    "linksrc": "/Vafor_IT/infiltrating-the-airship",
+    "foldername": "infiltrating-the-airship",
+    "category": "Adventure"
+  },
+  {
+    "name": "Henry Stickman  - Stealing the Diamond",
+    "imgsrc": "/assets/img/diamond.png",
+    "linksrc": "/Vafor_IT/stealing-the-diamond",
+    "foldername": "stealing-the-diamond",
+    "category": "Adventure"
   }
   
 ]
