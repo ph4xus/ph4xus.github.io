@@ -691,5 +691,12 @@
         "linksrc": "/Vafor_IT/bow-masters/",
         "foldername": "bow-masters",
         "category": "Platformer"
+    },
+    {
+        "name": "Amaze",
+        "imgsrc": "/assets/img/amaze.png",
+        "linksrc": "/Vafor_IT/amaze/",
+        "foldername": "amaze",
+        "category": "Misc"
     }
 ]
