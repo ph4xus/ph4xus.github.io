@@ -684,5 +684,12 @@
         "linksrc": "/Vafor_IT/bouncemasters/",
         "foldername": "bouncemasters",
         "category": "Platformer"
+    },
+    {
+        "name": "Bow Masters",
+        "imgsrc": "/assets/img/bowmaster.png",
+        "linksrc": "/Vafor_IT/bow-masters/",
+        "foldername": "bow-masters",
+        "category": "Platformer"
     }
 ]
