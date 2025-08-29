@@ -437,7 +437,6 @@ document.addEventListener("DOMContentLoaded", function () {
 
     window.addEventListener('resize', fetchRecommendedGames);
 
-
     
     fetchRecommendedGames();
     (adsbygoogle = window.adsbygoogle || []).push({});

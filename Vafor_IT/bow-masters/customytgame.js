@@ -273,14 +273,16 @@
         Sa = Object.defineProperties;
 
     function Ta(a, b) {
-        Ka || u in a || Sa(a, Ra);
-        a[u] |= b
+    if (!a) return; 
+    Ka || u in a || Sa(a, Ra);
+    a[u] |= b;
     }
 
-    function v(a, b) {
-        Ka || u in a || Sa(a, Ra);
-        a[u] = b
-    }
+   function v(a, b) {
+    if (!a) return; // Prevent access on undefined/null
+    Ka || u in a || Sa(a, Ra);
+    a[u] = b;
+}
 
     function Ua(a) {
         Ta(a, 34);
@@ -298,10 +300,10 @@
     function Xa() {
         return typeof BigInt === "function"
     };
-
     function w(a) {
-        return Array.prototype.slice.call(a)
-    };
+        if (!a) return [];           
+        return Array.prototype.slice.call(a);
+    }
     var Za = {};
 
     function $a(a) {
@@ -396,10 +398,13 @@
         vb = Number.isFinite,
         wb = Math.trunc;
 
-    function xb(a) {
-        if (typeof a !== "number") throw Error(`Value of float/double field must be a number, found ${typeof a}: ${a}`);
-        return a
+   function Xb(a) {
+    if (!a || !a.l) return []; // Return empty array if invalid
+    var b = a.l;
+    a = Vb(b, Wb, void 0, void 0, !1);
+    var c = b[u] | 0;
     }
+
     const yb = /^-?([1-9][0-9]*|0)(\.[0-9]+)?$/;
 
     function zb(a) {
@@ -758,15 +763,17 @@
         }
         return a
     }
-    let Yb;
+        let Yb;
 
     function bc(a) {
+        if (!a || !a.l) return {}; // Prevent crash if a is undefined or malformed
         try {
-            return Xb(a)
+            return Xb(a);
         } finally {
-            Yb = void 0
+            Yb = void 0;
         }
     }
+
 
     function Xb(a) {
         var b = a.l;
@@ -1793,7 +1800,7 @@
             }())
         }
     };
-    var ne = window !== window.parent,
+    var ne = false,
         oe = class {
             constructor() {
                 this.SDK_VERSION = "1.20250303.0000";
