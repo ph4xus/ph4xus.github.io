@@ -698,5 +698,12 @@
         "linksrc": "/Vafor_IT/amaze/",
         "foldername": "amaze",
         "category": "Misc"
+    },
+    {
+        "name": "Bridge Race",
+        "imgsrc": "/assets/img/bridgerace.jpg",
+        "linksrc": "/Vafor_IT/bridge-race/",
+        "foldername": "bridge-race",
+        "category": "Idle"
     }
 ]
