@@ -2,7 +2,7 @@
     "id": 76,
     "name": "TurkeyGirl",
     "description": "hero that this city deserves!",
-    "localizedName": "ui.main.shop.monica.name",
+    "localizedName": "TurkeyGirl",
     "localizedDescription": "ui.main.shop.monica.description",
     "localizedWeaponDescription": "ui.main.shop.monica.weapon.description",
     "icon": "icon_monica",

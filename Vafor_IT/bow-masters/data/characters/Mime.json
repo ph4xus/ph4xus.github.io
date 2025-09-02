@@ -5,7 +5,7 @@
     "avatar": "avatar_mime",
     "description": "silent assassin",
     "characterType": 1,
-    "localizedName": "ui.main.shop.mime.name",
+    "localizedName": "Mime",
     "localizedDescription": "ui.main.shop.mime.description",
     "localizedWeaponDescription": "ui.main.shop.mime.weapon.description",
     "characterVoiceType": 2,

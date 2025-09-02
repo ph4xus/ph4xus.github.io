@@ -2,7 +2,7 @@
     "id": 2,
     "name": "D'evourer",
     "description": "he is come in peace",
-    "localizedName": "ui.main.shop.alien.name",
+    "localizedName": "D'evourer",
     "localizedDescription": "ui.main.shop.alien.description",
     "localizedWeaponDescription": "ui.main.shop.alien.weapon.description",
     "icon": "icon_alien",

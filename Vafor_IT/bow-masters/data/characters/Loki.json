@@ -2,7 +2,7 @@
     "id": 30,
     "name": "Ice Lord",
     "description": "trickster god",
-    "localizedName": "ui.main.shop.loki.name",
+    "localizedName": "Ice Lord",
     "localizedDescription": "ui.main.shop.loki.description",
     "localizedWeaponDescription": "ui.main.shop.loki.weapon.description",
     "icon": "icon_loki",

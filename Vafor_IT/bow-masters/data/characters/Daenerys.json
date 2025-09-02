@@ -2,7 +2,7 @@
     "id": 93,
     "name": "Stormborn",
     "description": "Probably not good mother",
-    "localizedName": "ui.main.shop.daenerys.name",
+    "localizedName": "Stormborn",
     "localizedDescription": "ui.main.shop.daenerys.description",
     "localizedWeaponDescription": "ui.main.shop.daenerys.weapon.description",
     "icon": "icon_daenerys",

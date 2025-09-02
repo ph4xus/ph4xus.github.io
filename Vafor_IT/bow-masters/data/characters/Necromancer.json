@@ -2,7 +2,7 @@
     "id": 37,
     "name": "Dark Mage",
     "description": "his favorite hobby is to count the bones",
-    "localizedName": "ui.main.shop.necromancer.name",
+    "localizedName": "Dark Mage",
     "localizedDescription": "ui.main.shop.necromancer.description",
     "localizedWeaponDescription": "ui.main.shop.necromancer.weapon.description",
     "icon": "icon_necromancer",

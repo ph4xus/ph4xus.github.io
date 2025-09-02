@@ -2,7 +2,7 @@
     "id": 38,
     "name": "Neko",
     "description": "normalest japanese schoolgirl",
-    "localizedName": "ui.main.shop.neko.name",
+    "localizedName": "Neko",
     "localizedDescription": "ui.main.shop.neko.description",
     "localizedWeaponDescription": "ui.main.shop.neko.weapon.description",
     "icon": "icon_neko",

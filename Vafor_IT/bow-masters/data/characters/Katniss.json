@@ -2,7 +2,7 @@
     "id": 27,
     "name": "Hunger Girl",
     "description": "she's just looking for some food",
-    "localizedName": "ui.main.shop.katniss.name",
+    "localizedName": "Hunger Girl",
     "localizedDescription": "ui.main.shop.katniss.description",
     "localizedWeaponDescription": "ui.main.shop.katniss.weapon.description",
     "icon": "icon_katniss",

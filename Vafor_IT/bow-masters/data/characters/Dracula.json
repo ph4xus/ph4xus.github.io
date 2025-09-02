@@ -2,7 +2,7 @@
     "id": 12,
     "name": "Vlad",
     "description": "the noble earl",
-    "localizedName": "ui.main.shop.dracula.name",
+    "localizedName": "Vlad",
     "localizedDescription": "ui.main.shop.dracula.description",
     "localizedWeaponDescription": "ui.main.shop.dracula.weapon.description",
     "icon": "icon_dracula",

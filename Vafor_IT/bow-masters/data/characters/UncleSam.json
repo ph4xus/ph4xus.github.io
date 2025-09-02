@@ -2,7 +2,7 @@
     "id": 61,
     "name": "Crazy Sam",
     "description": "I choose you",
-    "localizedName": "ui.main.shop.uncle_sam.name",
+    "localizedName": "Crazy Sam",
     "localizedDescription": "ui.main.shop.uncle_sam.description",
     "localizedWeaponDescription": "ui.main.shop.uncle_sam.weapon.description",
     "icon": "icon_unclesam",

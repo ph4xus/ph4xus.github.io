@@ -2,7 +2,7 @@
     "id": 21,
     "name": "Maestro",
     "description": "the one who boils",
-    "localizedName": "ui.main.shop.heisengerg.name",
+    "localizedName": "Maestro",
     "localizedDescription": "ui.main.shop.heisengerg.description",
     "localizedWeaponDescription": "ui.main.shop.heisengerg.weapon.description",
     "icon": "icon_heisengerg",

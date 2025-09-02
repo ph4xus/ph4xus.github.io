@@ -5,7 +5,7 @@
     "avatar": "avatar_robinhood",
     "description": "hero in tights",
     "characterType": 1,
-    "localizedName": "ui.main.shop.robinhood.name",
+    "localizedName": "Robin",
     "localizedDescription": "ui.main.shop.robinhood.description",
     "localizedWeaponDescription": "ui.main.shop.robinhood.weapon.description",
     "characterVoiceType": 3,

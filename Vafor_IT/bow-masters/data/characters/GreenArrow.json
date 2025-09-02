@@ -5,7 +5,7 @@
     "avatar": "avatar_greenarrow",
     "description": "always fight for the right",
     "characterType": 1,
-    "localizedName": "ui.main.shop.greenarrow.name",
+    "localizedName": "Robin the Quickshooter",
     "localizedDescription": "ui.main.shop.greenarrow.description",
     "localizedWeaponDescription": "ui.main.shop.greenarrow.weapon.description",
     "characterVoiceType": 3,

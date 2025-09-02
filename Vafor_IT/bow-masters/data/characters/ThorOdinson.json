@@ -2,7 +2,7 @@
     "id": 78,
     "name": "Thor the Thundergod",
     "description": "the famed god of thunder",
-    "localizedName": "ui.main.shop.thorodinson.name",
+    "localizedName": "Thor the Thundergod",
     "localizedDescription": "ui.main.shop.thorodinson.description",
     "localizedWeaponDescription": "ui.main.shop.thorodinson.weapon.description",
     "icon": "icon_thorodinson",

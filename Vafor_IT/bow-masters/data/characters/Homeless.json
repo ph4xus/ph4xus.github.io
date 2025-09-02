@@ -2,7 +2,7 @@
     "id": 23,
     "name": "Jeremy",
     "description": "the drunk master",
-    "localizedName": "ui.main.shop.homeless.name",
+    "localizedName": "Jeremy",
     "localizedDescription": "ui.main.shop.homeless.description",
     "localizedWeaponDescription": "ui.main.shop.homeless.weapon.description",
     "icon": "icon_homeless",

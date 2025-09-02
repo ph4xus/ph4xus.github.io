@@ -2,7 +2,7 @@
     "id": 48,
     "name": "Shark",
     "description": "sad dance king",
-    "localizedName": "ui.main.shop.shark.name",
+    "localizedName": "Shark",
     "localizedDescription": "ui.main.shop.shark.description",
     "localizedWeaponDescription": "ui.main.shop.shark.weapon.description",
     "icon": "icon_shark",

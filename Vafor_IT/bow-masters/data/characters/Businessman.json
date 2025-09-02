@@ -2,7 +2,7 @@
     "id": 63,
     "name": "Investor",
     "description": "the man in the suit too",
-    "localizedName": "ui.main.shop.businessman.name",
+    "localizedName": "Investor",
     "localizedDescription": "ui.main.shop.businessman.description",
     "localizedWeaponDescription": "ui.main.shop.businessman.weapon.description",
     "icon": "icon_businessman",

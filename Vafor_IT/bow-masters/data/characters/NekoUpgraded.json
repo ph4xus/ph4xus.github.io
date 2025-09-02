@@ -2,7 +2,7 @@
     "id": 84,
     "name": "Kitsune",
     "description": "six tails form",
-    "localizedName": "ui.main.shop.nekoupgraded.name",
+    "localizedName": "Kitsune",
     "localizedDescription": "ui.main.shop.nekoupgraded.description",
     "localizedWeaponDescription": "ui.main.shop.nekoupgraded.weapon.description",
     "icon": "icon_nekoupgraded",

@@ -2,7 +2,7 @@
     "id": 42,
     "name": "Dr. Sick",
     "description": "mad scientist",
-    "localizedName": "ui.main.shop.professor.name",
+    "localizedName": "Dr. Sick",
     "localizedDescription": "ui.main.shop.professor.description",
     "localizedWeaponDescription": "ui.main.shop.professor.weapon.description",
     "icon": "icon_professor",

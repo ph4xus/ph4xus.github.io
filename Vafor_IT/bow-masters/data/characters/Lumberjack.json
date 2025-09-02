@@ -2,7 +2,7 @@
     "id": 31,
     "name": "Terrance",
     "description": "great canadian lumberjack",
-    "localizedName": "ui.main.shop.lumberjack.name",
+    "localizedName": "Terrance",
     "localizedDescription": "ui.main.shop.lumberjack.description",
     "localizedWeaponDescription": "ui.main.shop.lumberjack.weapon.description",
     "icon": "icon_lumberjack",

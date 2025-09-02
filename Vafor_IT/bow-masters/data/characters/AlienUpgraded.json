@@ -2,7 +2,7 @@
     "id": 86,
     "name": "General D'evouer",
     "description": "the Empire will show the force",
-    "localizedName": "ui.main.shop.alienupgraded.name",
+    "localizedName": "General D'evouer",
     "localizedDescription": "ui.main.shop.alienupgraded.description",
     "localizedWeaponDescription": "ui.main.shop.alienupgraded.weapon.description",
     "icon": "icon_alienupgraded",
@@ -777,7 +777,7 @@
         }
     ],
     "ragdoll": {
-        "startingBoneName": "body", 
+        "startingBoneName": "body",
         "stopBoneNames": [
             "bow",
             "ball_brutality",

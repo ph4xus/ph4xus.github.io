@@ -2,7 +2,7 @@
     "id": 74,
     "name": "Schoolmates",
     "description": "it's school time!",
-    "localizedName": "ui.main.shop.badguy.name",
+    "localizedName": "Schoolmates",
     "localizedDescription": "ui.main.shop.badguy.description",
     "localizedWeaponDescription": "ui.main.shop.badguy.weapon.description",
     "icon": "icon_schoooler",
