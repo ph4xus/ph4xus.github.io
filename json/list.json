@@ -705,5 +705,12 @@
         "linksrc": "/Vafor_IT/bridge-race/",
         "foldername": "bridge-race",
         "category": "Idle"
+    },
+    {
+        "name": "State.io",
+        "imgsrc": "/assets/img/state-io.png",
+        "linksrc": "/Vafor_IT/state-io/",
+        "foldername": "state-io",
+        "category": "Idle"
     }
 ]
