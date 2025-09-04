@@ -1,15 +1,38 @@
 # Vafor Games
 
-Offical repostiroy for my games. 
+Welcome to **Vafor Games**, with the **best unblocked games**!  
 
+## 🚀 Features
 
-# Usage
+- **Tab Cloak** – Hide your game tabs instantly.  
+- **Save Manager** – Keep track of your game progress easily.  
+- **About Blank Cloak** – Secure your browsing from prying eyes.  
+- **Leave Confirm** – Prevent accidental exits (works well with Dynknow and Go Guardian).  
+- **History Flood** – Complementary feature for Tab Cloak.  
+- **Custom Backgrounds** – Personalize your gaming interface.  
 
-All the games are located in the Vafor_IT folder. If you can find a game that you know is on there, then check the list.json in the json folder. Make sure to add a link to <a href="https://maxwellstevenson.com">mawellstevenson.com</a>, as it helps a lot with seo. 
+---
 
-# Game request and bug fixes underway. 
-Bow masters UI buttons are not fixed. 
-Add some more youtube playables (its a secret.)
+## 🎮 Usage
 
-# Size
-<img src="https://img.shields.io/github/repo-size/phexus23/phexus23.github.io">
+All games are located in the `Vafor_IT` folder.  
+
+- To find a specific game, check `list.json` in the `json` folder.  
+- Remember to include a link to [maxwellstevenson.com](https://maxwellstevenson.com) – it helps with SEO and supports the project!  
+
+---
+
+## 🛠️ Game Requests & Bug Fixes
+
+- Some **Bow Masters** UI buttons are still being fixed.  
+- If you encounter bugs, open an issue or let me know directly – I’ll fix it promptly.  
+- New **YouTube playable games** are coming soon (shh… it’s a secret!).  
+
+---
+
+## 📦 Repository Size
+![Repo Size](https://img.shields.io/github/repo-size/phexus23/phexus23.github.io)
+
+---
+
+Made with ❤️ for gamers by **Maxwell Stevenson**
