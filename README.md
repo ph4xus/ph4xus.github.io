@@ -1,9 +1,10 @@
 # Vafor Games
 
-Welcome to **Vafor Games**, with the **best unblocked games**!  
+Welcome to **Vafor Games**, with the **over a 100**!  
 
-## 🚀 Features
+## Features
 
+- **Over a 100 games** 
 - **Tab Cloak** – Hide your game tabs instantly.  
 - **Save Manager** – Keep track of your game progress easily.  
 - **About Blank Cloak** – Secure your browsing from prying eyes.  
@@ -13,7 +14,7 @@ Welcome to **Vafor Games**, with the **best unblocked games**!
 
 ---
 
-## 🎮 Usage
+## Usage
 
 All games are located in the `Vafor_IT` folder.  
 
@@ -35,4 +36,4 @@ All games are located in the `Vafor_IT` folder.
 
 ---
 
-Made with ❤️ for gamers by **Maxwell Stevenson**
+Made by phexus
