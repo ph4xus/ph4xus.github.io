@@ -19,15 +19,15 @@ Welcome to **Vafor Games**, with the **over a 100 games**!
 All games are located in the `Vafor_IT` folder.  
 
 - To find a specific game, check `list.json` in the `json` folder.  
-- Remember to include a link to [maxwellstevenson.com](https://maxwellstevenson.com) – it helps with SEO and supports the project!  
+- Remember to include a link to [maxwellstevenson.com](https://maxwellstevenson.com) – it helps with SEO the.  
 
 ---
 
 ## 🛠️ Game Requests & Bug Fixes
 
 - Some **Bow Masters** UI buttons are still being fixed.  
-- If you encounter bugs, open an issue or let me know directly – I’ll fix it promptly.  
-- New **YouTube playable games** are coming soon (shh… it’s a secret!).  
+- If you encounter bugs, open an issue or let me know directly – I’ll fix it.  
+- New **YouTube playable games** are coming soon.  
 
 ---
 
