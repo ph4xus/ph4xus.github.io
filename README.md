@@ -1,6 +1,6 @@
 # Vafor Games
 
-Welcome to **Vafor Games**, with the **over a 100**!  
+Welcome to **Vafor Games**, with the **over a 100 games**!  
 
 ## Features
 
